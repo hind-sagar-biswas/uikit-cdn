@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="language" content="english"> 
+	<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    
+	<meta name="format-detection" content="telephone=yes"/>
+	<!-- <meta name="HandheldFriendly" content="true"/> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+	
+	<meta name="description" content="Content Delivery Network or CDN for Uikit 2.27.5">
+	<meta name="keywords" content="cdn, content delivery network, uikit2, uikit, uikit cdn"/>
+  	<meta name="author" content="Hind Sagar Biswas">
+	
+	<title>Uikit 2.27.5 CDN</title>
+			
+			<!--fontawsome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">		
+		   
+	   <link rel="stylesheet" href="https://hindbiswas.000webhostapp.com/css/uikit.gradient.min.css" />
+	
+</head>
+<body style="width: 100vw; height: 100vh;">
+	<br>
+	<div class="uk-badge uk-badge-notification" style="margin-left: -20px; padding-left: 35px;" id="time">
+		<i class="fa fa-clock"></i> 00:00:00 H @ GMT+0000
+	</div>
+		<h1 class="uk-h1 uk-text-bold  " style="padding-left: 20px;"><i class="fab fa-uikit"></i> Uikit</h1>
+		<h3 class=" " style="padding-left: 20px;">CDN <i>(Content Delivery Network)</i> for Uikit v2.27.5</h3>
+	<div class="uk-grid" style="padding-left: 20px;">
+		<div class="uk-width-1-1">
+				<em>A lightweight and modular front-end framework
+for developing fast and powerful web interfaces.</em>
+<br><br>
+		</div>
+	</div>
+	<a href="https://github.com/hind-sagar-biswas/uikit-cdn/README.md">
+		<button class="uk-button uk-button-primary" style="margin-left: 20px;">
+			<i class="fas fa-file"></i>
+			CDN Doc.
+		</button>
+	</a>
+	
+	
+	<script>
+		setInterval(() => {
+			var currentDate = new Date();
+			document.getElementById("time").innerHTML = "<i class=\"fa fa-clock\"></i> " +  currentDate.toString().split(" ")[4] + " H @ " + currentDate.toString().split(" ")[5];
+		}, 500);
+	</script>
+</body>
+</html>
